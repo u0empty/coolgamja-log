@@ -18,8 +18,8 @@ jobs:
 
     - name: Push changes
       run: |
-        git config --global user.name 'github-actions[bot]'
-        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+        git config --global u0empty 'github-actions[bot]'
+        git config --global yubeen00@naver.com 'github-actions[bot]@users.noreply.github.com'
         git push https://${{ secrets.GH_PAT }}@github.com/u0empty/coolgamja-log.git
 
     - name: Set up Python
